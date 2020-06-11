@@ -62,6 +62,7 @@ span.x4:before,i.x4:before {
 }
 
 .mb40 {
+    text-align: center;
     margin-bottom: 40px;
 }
 
@@ -70,6 +71,7 @@ span.x4:before,i.x4:before {
 }
 
 .mb90 {
+    text-align: center;
     margin-bottom: 90px;
 }
 
@@ -95,22 +97,23 @@ span.x4:before,i.x4:before {
 }
 
 /* OVERLAYS */
+
 .light-overlay {
     background-color: rgba(255,255,255,0.4);
 }
 
 .dark-overlay {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.0);
 }
 
 .dark-overlay.half-opacity {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.0);
 }
 
 .dark-overlay.fill-right:after {
     content: '';
     display: block;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.0);
     position: absolute;
     top: 0;
     width: 500%;
@@ -131,22 +134,26 @@ span.x4:before,i.x4:before {
 
 .hover-shift:hover .dark-overlay.fill-left {
     position: relative;
-    left: 80px;
+    left: 5px;
+    top: 130px;
 }
 
 .hover-shift .dark-overlay.fill-left {
     position: relative;
     left: 0px;
+    top: 130px;
 }
 
 .hover-shift:hover .dark-overlay.fill-right {
     position: relative;
-    right: 80px;
+    right: 5px;
+    top: 130px;
 }
 
 .hover-shift .dark-overlay.fill-right {
     position: relative;
-    right: 0px;
+    right: 5px;
+    top: 130px;
 }
 
 .hover-shift .member-social {
@@ -859,6 +866,7 @@ footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p,.dark-overl
      .hover-shift:hover .dark-overlay.fill-left {
         position: relative;
         left: 0px;
+        
     }
 
     .hover-shift:hover .dark-overlay.fill-right {

@@ -90,6 +90,11 @@ span.x4:before,i.x4:before {
 .section-inner {
     padding-top: 90px;
     padding-bottom: 90px;
+    padding-left:10px;
+}
+
+.padding-1 {
+    left: 60px;
 }
 
 .site-overlay {
@@ -124,7 +129,7 @@ span.x4:before,i.x4:before {
 .dark-overlay.fill-left:after {
     content: '';
     display: block;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.0);
     position: absolute;
     top: 0;
     width: 500%;
@@ -140,7 +145,7 @@ span.x4:before,i.x4:before {
 
 .hover-shift .dark-overlay.fill-left {
     position: relative;
-    left: 0px;
+    left: 5px;
     top: 130px;
 }
 
@@ -163,8 +168,8 @@ span.x4:before,i.x4:before {
 }
 
 .hover-shift:hover .member-social {
-    opacity: 1;
-    width: 80px;
+    opacity: 0;
+    width: 0px;
 }
 
 .member-social a {
@@ -303,7 +308,7 @@ span.x4:before,i.x4:before {
 }
 
 img.logo {
-    max-height: 35px;
+    max-height: 80px;
     margin-top: 15px;
 }
 
@@ -875,7 +880,7 @@ footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p,.dark-overl
     }
 
     .hover-shift .member-social {
-        opacity: 1;
+        opacity: 0;
         width: 60px;
     }
 
